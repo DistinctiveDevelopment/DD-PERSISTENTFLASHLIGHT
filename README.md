@@ -1,6 +1,6 @@
 # DD-PERSISTENTFLASHLIGHT - DISTINCTIVE DEVELOPMENT
 
-<img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT.png" width="500">
+<center><img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT.png" width="500"></center>
 
 A **FiveM** resource coded in **C#** to get a persistent flashlight in game.
 

@@ -1,6 +1,6 @@
 # DD-PERSISTENTFLASHLIGHT - DISTINCTIVE DEVELOPMENT
 
-A FiveM resource coded in C# to get a persistent flashlight in game.
+A **FiveM** resource coded in **C#** to get a persistent flashlight in game.
 
 The resource disables the current default GTA5 flashlight and uses the Fivem Native: DrawSpotlight to create flashlights for all players who have them enabled on the gun (same hotkey: “E”). Everything is synced with other players and the script remembers if the flashlight was on the particular gun when you get it out again, for example entering and exiting a car.
 

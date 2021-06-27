@@ -20,6 +20,10 @@ https://discord.distinctive-dev.com/
 4. **Optional** Configure the config
 5. Start the resource or reboot the server
 
+## CONFIG]
+taserflashlight: true/false (enable or disable the flashlight on the taser, use lowercase)
+The other variables are from the Fivem native [DrawSpotlight](https://docs.fivem.net/natives/?_0xD0F64B265C8C8B33) (except pos and dir) and can be set in the config to change the flashlight to your own preference. Variables are set to INT in the code, so use whole numbers in the config, decimals won't work.
+
 ## Source Code
 The source code is included inside the "source" folder
 

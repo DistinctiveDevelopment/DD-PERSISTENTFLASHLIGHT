@@ -1,0 +1,13 @@
+{
+    "taserflashlight": true,
+
+    "red": 255,
+    "green": 175,
+    "blue": 145,
+
+    "distance": 50,
+    "brightness": 15,
+    "hardness": 10,
+    "radius": 12,
+    "falloff": 15
+}

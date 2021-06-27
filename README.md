@@ -39,6 +39,7 @@ Some screenshots of the resource in game.
 ## Changelog
 **V1.1.0**
 - Code improvements to enhance performance
+- Fixed some weaponhashes
 - Random fixes
 
 **V1.0.0**

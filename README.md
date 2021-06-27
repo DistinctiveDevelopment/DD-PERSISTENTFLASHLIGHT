@@ -11,6 +11,6 @@ https://discord.distinctive-dev.com/
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=VHMngrDW_rM">
-    <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT-YT.png" width="500" >
+    <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT-YT.png" target="_blank" width="500" >
   </a>
 </p>

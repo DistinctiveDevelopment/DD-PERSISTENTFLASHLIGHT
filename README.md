@@ -9,4 +9,8 @@ The resource disables the current default GTA5 flashlight and uses the Fivem Nat
 Join our Discord if you are looking for support or just want to talk!
 https://discord.distinctive-dev.com/
 
-[![IMAGE ALT TEXT HERE](https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT-YT.png)](https://www.youtube.com/watch?v=VHMngrDW_rM)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=VHMngrDW_rM">
+    <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT-YT.png" width="500" >
+  </a>
+</p>

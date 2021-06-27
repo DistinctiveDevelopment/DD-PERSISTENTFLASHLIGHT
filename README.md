@@ -29,3 +29,9 @@ Any feedback on the resource is appreciated, this includes bugs, suggestions and
 ## Screenshots
 Some screenshots of the resource in game.
 **COMING SOON**
+
+## Changelog
+V1.1.0
+Changes:
+- Code improvements to enhance performance
+- Random fixes

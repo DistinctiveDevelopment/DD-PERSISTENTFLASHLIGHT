@@ -14,7 +14,7 @@ https://discord.distinctive-dev.com/
 </p>
 
 ## Installation
-1. Download the latest release [HERE](https://github.com/DistinctiveDevelopment/DD-PERSISTENTFLASHLIGHT/releases "Releases")
+1. Download the latest release [HERE](https://github.com/DistinctiveDevelopment/DD-PERSISTENTFLASHLIGHT/releases "DD-PERSISTENTFLASHLIGHT Releases")
 2. Move the "DD-PERSISTENTFLASHLIGHT" folder to your server resources.
 3. Add “DD-PERSISTENTFLASHLIGHT” to your server.cfg with start or ensure
 4. **Optional** Configure the config

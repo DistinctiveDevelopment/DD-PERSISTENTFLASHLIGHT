@@ -34,6 +34,6 @@ Some screenshots of the resource in game.
 **V1.1.0**
 - Code improvements to enhance performance
 - Random fixes
-- 
+
 **V1.0.0**
 - Initial release (not on github)

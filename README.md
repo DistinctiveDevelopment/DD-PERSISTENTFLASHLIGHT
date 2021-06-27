@@ -12,3 +12,10 @@ https://discord.distinctive-dev.com/
     <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT-YT.png" target="_blank" width="500" >
   </a>
 </p>
+
+# INSTALLATION
+1. Download from github
+2. Move the "DD-PERSISTENTFLASHLIGHT" folder to your server resources.
+3. Add “DD-PERSISTENTFLASHLIGHT” to your server.cfg with start or ensure
+4. **Optional** Configure the config
+5. Start the resource or reboot the server

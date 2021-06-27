@@ -9,7 +9,7 @@ https://discord.distinctive-dev.com/
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=VHMngrDW_rM">
-    <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT-YT.png" target="_blank" width="500" >
+    <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/DD-PERSISTENTFLASHLIGHT-YT.png" target="_blank" width="500" >
   </a>
 </p>
 
@@ -28,7 +28,9 @@ Any feedback on the resource is appreciated, this includes bugs, suggestions and
 
 ## Screenshots
 Some screenshots of the resource in game.
-**COMING SOON**
+<img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/1.png" target="_blank" width="800" >
+<img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/2.png" target="_blank" width="800" >
+<img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/3.png" target="_blank" width="800" >
 
 ## Changelog
 **V1.1.0**

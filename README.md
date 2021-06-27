@@ -31,7 +31,9 @@ Some screenshots of the resource in game.
 **COMING SOON**
 
 ## Changelog
-V1.1.0
-Changes:
+**V1.0.0**
+- Initial release
+
+**V1.1.0**
 - Code improvements to enhance performance
 - Random fixes

@@ -28,3 +28,4 @@ Any feedback on the resource is appreciated, this includes bugs, suggestions and
 
 ## Screenshots
 Some screenshots of the resource in game.
+**COMING SOON**

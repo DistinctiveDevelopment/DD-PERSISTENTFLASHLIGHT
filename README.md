@@ -7,6 +7,8 @@ The resource disables the current default GTA5 flashlight and uses the Fivem Nat
 Join our Discord if you are looking for support or just want to talk!
 https://discord.distinctive-dev.com/
 
+FiveM forum post https://forum.cfx.re/t/release-c-free-distinctive-development-persistent-flashlight/
+
 <p align="center">
   <a href="https://www.youtube.com/watch?v=VHMngrDW_rM">
     <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/DD-PERSISTENTFLASHLIGHT-YT.png" target="_blank" width="500" >

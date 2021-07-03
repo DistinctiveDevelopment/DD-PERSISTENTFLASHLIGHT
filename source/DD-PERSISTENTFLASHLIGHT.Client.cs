@@ -150,7 +150,7 @@ namespace DD_PERSISTENTFLASHLIGHT
                 WeaponInfo newFlashLight = new WeaponInfo()
                 {
                     Player = player,
-                    PlayerID = playerServerId,
+                    PlayerID = playerid,
                     WeaponHash = weaponHash,
                     ComponentHash = componentHash,
                     FlashLightEnabled = flashlightEnabled
@@ -256,19 +256,22 @@ namespace DD_PERSISTENTFLASHLIGHT
         {
             foreach (var flashlight in _flashlightList)
             {
-                if (flashlight.PlayerID != 0)
+                //Debug.WriteLine($"flashlight enabled {flashlight.FlashLightEnabled}");
+                //Debug.WriteLine($"playerid {flashlight.PlayerID}");
+                if (flashlight.FlashLightEnabled && flashlight.PlayerID !=0)
                 {
-                    int sourcePed = GetPlayerPed(flashlight.PlayerID);
+                    int sourcePed = GetPlayerPed(GetPlayerPed(flashlight.PlayerID));
                     if ((uint)GetSelectedPedWeapon(sourcePed) == flashlight.WeaponHash && !IsPedInAnyVehicle(sourcePed, true))
                     {
                         Vector3[] vectors = FlashlightVectors[flashlight.ComponentHash];
-                        if (vectors != null && flashlight.FlashLightEnabled)
+                        if (vectors != null)
                         {
                             Vector3 Pos = GetPedBoneCoords(sourcePed, 0xDEAD, vectors[0].X, vectors[0].Y, vectors[0].Z);
                             Vector3 Dir = GetPedBoneCoords(sourcePed, 0xDEAD, vectors[1].X, vectors[1].Y, vectors[1].Z);
                             Vector3 DirVector = Dir - Pos;
                             float VectorMag = Vmag2(DirVector.X, DirVector.Y, DirVector.X);
                             Vector3 PosEnd = new Vector3(DirVector.X / VectorMag, DirVector.Y / VectorMag, DirVector.Z / VectorMag);
+                           
                             DrawSpotLight(
                                 Pos.X,
                                 Pos.Y,

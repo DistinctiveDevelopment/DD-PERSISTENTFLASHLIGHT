@@ -91,7 +91,7 @@ namespace DD_PERSISTENTFLASHLIGHT.Server
                     _flashlightList.Remove(flashlight);
                     TriggerClientEvent("dd_flashlightRemove", flashlight.Player);
                 }
-            };
+            }
         }
     }
 }

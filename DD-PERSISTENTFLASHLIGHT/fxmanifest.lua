@@ -3,7 +3,7 @@ games { 'gta5' }
 
 author 'DISTINCTIVE DEVELOPMENT - Oulsen'
 description 'Persistent flashlight'
-version '1.1.0'
+version '1.1.1'
 
 files{
 	"Newtonsoft.Json.dll",

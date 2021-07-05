@@ -39,6 +39,9 @@ Some screenshots of the resource in game.
 <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/3.png" target="_blank" width="800" >
 
 ## Changelog
+**V1.1.2.**
+- Fixed bug with script getting the wrong ped
+
 **V1.1.1**
 - FIXED issue that the script was not working
 

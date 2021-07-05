@@ -111,6 +111,8 @@ namespace DD_PERSISTENTFLASHLIGHT
             LoadConfig();
             Flashlight_client_eventhandlers();
             Init_Flashlights();
+
+            Debug.WriteLine("DD-PERSISTENTFLASHLIGHT V1.1.2. LOADED");
         }
 
         [Tick]
@@ -256,11 +258,9 @@ namespace DD_PERSISTENTFLASHLIGHT
         {
             foreach (var flashlight in _flashlightList)
             {
-                //Debug.WriteLine($"flashlight enabled {flashlight.FlashLightEnabled}");
-                //Debug.WriteLine($"playerid {flashlight.PlayerID}");
                 if (flashlight.FlashLightEnabled && flashlight.PlayerID !=0)
                 {
-                    int sourcePed = GetPlayerPed(GetPlayerPed(flashlight.PlayerID));
+                    int sourcePed = GetPlayerPed(GetPlayerFromServerId(flashlight.PlayerID));
                     if ((uint)GetSelectedPedWeapon(sourcePed) == flashlight.WeaponHash && !IsPedInAnyVehicle(sourcePed, true))
                     {
                         Vector3[] vectors = FlashlightVectors[flashlight.ComponentHash];

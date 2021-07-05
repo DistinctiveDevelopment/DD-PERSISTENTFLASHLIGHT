@@ -39,6 +39,9 @@ Some screenshots of the resource in game.
 <img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/3.png" target="_blank" width="800" >
 
 ## Changelog
+**V1.1.1**
+- FIXED issue that the script was not working
+
 **V1.1.0**
 - Code improvements to enhance performance
 - Fixed some weaponhashes

@@ -11,7 +11,7 @@ FiveM forum post https://forum.cfx.re/t/release-c-free-distinctive-development-p
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=VHMngrDW_rM">
-    <img src="https://forum.cfx.re/uploads/default/optimized/4X/9/1/3/9137726eb97cdf4ce961691ba206208f69e92bcb_2_517x291.jpeg" target="_blank" width="500" >
+    <img src="https://forum.cfx.re/uploads/default/original/4X/1/9/1/1914b0c575f00932a67499453de9d145fb86590a.jpeg" target="_blank" width="500" >
   </a>
 </p>
 

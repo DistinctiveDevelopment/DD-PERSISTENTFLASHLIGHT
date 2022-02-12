@@ -112,7 +112,7 @@ namespace DD_PERSISTENTFLASHLIGHT
             Flashlight_client_eventhandlers();
             Init_Flashlights();
 
-            Debug.WriteLine("DD-PERSISTENTFLASHLIGHT V1.1.2. LOADED");
+            Debug.WriteLine("DD-PERSISTENTFLASHLIGHT V1.1.3. LOADED");
         }
 
         [Tick]
@@ -235,21 +235,24 @@ namespace DD_PERSISTENTFLASHLIGHT
         {
             DisableControlAction(0, 54, true);
             Ped playerPed = Game.PlayerPed;
-            if (!IsPedInAnyVehicle(playerPed.Handle, true) && IsDisabledControlJustPressed(0, 54) && _currentWeapon != null)
+            if (IsPedArmed(playerPed.Handle, 4))
             {
-                if (HasPedGotWeaponComponent(playerPed.Handle, _currentWeapon.WeaponHash, _currentWeapon.ComponentHash) || (_currentWeaponInt == 0x3656C8C1 && _config.Taserflashlight))
+                if (!IsPedInAnyVehicle(playerPed.Handle, true) && IsDisabledControlJustPressed(0, 54) && _currentWeapon != null)
                 {
-                    if (_currentWeapon.FlashLightEnabled)
+                    if (HasPedGotWeaponComponent(playerPed.Handle, _currentWeapon.WeaponHash, _currentWeapon.ComponentHash) || (_currentWeaponInt == 0x3656C8C1 && _config.Taserflashlight))
                     {
-                        _currentWeapon.FlashLightEnabled = false;
-                        PlaySoundFrontend(-1, "COMPUTERS_MOUSE_CLICK", "", true);
+                        if (_currentWeapon.FlashLightEnabled)
+                        {
+                            _currentWeapon.FlashLightEnabled = false;
+                            PlaySoundFrontend(-1, "COMPUTERS_MOUSE_CLICK", "", true);
+                        }
+                        else if (!_currentWeapon.FlashLightEnabled)
+                        {
+                            _currentWeapon.FlashLightEnabled = true;
+                            PlaySoundFrontend(-1, "COMPUTERS_MOUSE_CLICK", "", true);
+                        }
+                        TriggerServerEvent("dd_flashlight_toggle", _currentWeapon.WeaponHash, _currentWeapon.ComponentHash, _currentWeapon.FlashLightEnabled);
                     }
-                    else if (!_currentWeapon.FlashLightEnabled)
-                    {
-                        _currentWeapon.FlashLightEnabled = true;
-                        PlaySoundFrontend(-1, "COMPUTERS_MOUSE_CLICK", "", true);
-                    }
-                    TriggerServerEvent("dd_flashlight_toggle", _currentWeapon.WeaponHash, _currentWeapon.ComponentHash, _currentWeapon.FlashLightEnabled);
                 }
             }
         }

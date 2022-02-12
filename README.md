@@ -32,13 +32,10 @@ The source code is included inside the "source" folder
 ## Feedback
 Any feedback on the resource is appreciated, this includes bugs, suggestions and improvements to the code.
 
-## Screenshots
-Some screenshots of the resource in game.
-<img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/1.png" target="_blank" width="800" >
-<img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/2.png" target="_blank" width="800" >
-<img src="https://distinctive-dev.com/github/images/DD-PERSISTENTFLASHLIGHT/3.png" target="_blank" width="800" >
-
 ## Changelog
+**V1.1.3.**
+- Fixed click sound being played while not holding any weapons and pressing E
+
 **V1.1.2.**
 - Fixed bug with script getting the wrong ped
 
